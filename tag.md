@@ -4,13 +4,16 @@ title: Tag
 ---
 
 # Tag
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 The Tags:
 {% for tag in sorted_tags %}
-{% assign all_tags = all_tags | append: tag | append: "," %}
+  {% assign all_tags = all_tags | append: tag[0] | append: "," %}
 {% endfor %}
-{{all_tags}}
+
+{{ all_tags | slice: 0, all_tags.size | minus: 2 }}
+
 ---
 
 All tags: 

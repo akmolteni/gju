@@ -5,7 +5,7 @@ title: Tag
 
 # Tag
 
-{{ site.tags[0] | join: ', ' }} 
+{{ site.tags.name | join: ', ' }} 
 
 ---
 

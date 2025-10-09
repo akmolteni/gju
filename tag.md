@@ -2,13 +2,14 @@
 layout: default
 title: Tag
 ---
+{% assign sorted_tags = (site.tags | sort:0) %}
 
 # Tag
 
 All tags: 
 {% for tag in sorted_tags %}{{ tag[0] }}, {% endfor %}
 
-Browse all posts by tag
+Browse posts with tags
 {% for tag in sorted_tags %}
   <h2>{{ tag[0] }}</h2>
   <ul>

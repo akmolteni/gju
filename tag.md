@@ -4,12 +4,14 @@ title: Tag
 ---
 
 # Tag
-
-{{ site.tags.name | join: ', ' }} 
-
----
-
 {% assign sorted_tags = (site.tags | sort:0) %}
+
+The Tags:
+{% for tag in sorted_tags %}
+{% assign all_tags = all_tags | append: tag | append: "," %}
+{% endfor %}
+{{all_tags}}
+---
 
 All tags: 
 {% for tag in sorted_tags %}{{ tag[0] }}, {% endfor %}

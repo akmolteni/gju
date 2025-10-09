@@ -4,6 +4,11 @@ title: Tag
 ---
 
 # Tag
+
+{{ site.tags[0] | join: ', ' }} 
+
+---
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 All tags: 

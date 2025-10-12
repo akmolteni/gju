@@ -2,6 +2,9 @@
 layout: default
 title: Home
 ---
+{% if paginator.page == 1 %}
+  <p class="message">This is the homepage</p>
+{% endif %}
 
 <div class="posts">
   {% for post in paginator.posts %}

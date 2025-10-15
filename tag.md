@@ -2,8 +2,6 @@
 layout: default
 title: Tag
 ---
-{% include archive.html %}
-
 
 {% assign sorted_tags = (site.tags | sort:0) %}
 

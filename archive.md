@@ -3,7 +3,6 @@ layout: default
 title: Archive
 ---
 
-{% include archive.html %}
 
 # Archive
 

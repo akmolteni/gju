@@ -3,6 +3,8 @@ layout: default
 title: Tag
 ---
 
+{% include archives.html %}
+
 {% assign sorted_tags = (site.tags | sort:0) %}
 
 # Tag

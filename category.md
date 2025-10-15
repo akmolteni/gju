@@ -2,7 +2,6 @@
 layout: default
 title: Category
 ---
-{% include archive.html %}
 
 # Category
 {% assign sorted_items = (site.categories | sort:0) %}

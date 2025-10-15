@@ -3,6 +3,8 @@ layout: default
 title: Archive
 ---
 
+{% include archive.html %}
+
 # Archive
 
 Browse all posts by month and year.

@@ -50,6 +50,8 @@
   --spacer-3: calc(var(--spacer) * 3);
 }
 
+/* Disabling dark mode
+
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: var(--gray-300);
@@ -65,3 +67,4 @@
     --code-bg: var(--gray-900);
   }
 }
+*/

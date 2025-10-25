@@ -44,3 +44,8 @@ version: 1.0.0
 # For github pages
 website: https://akmolteni.github.io
 baseurl: /gju
+
+# For ntoes
+collections:
+  notes:
+    output: true 

@@ -44,7 +44,3 @@ version: 1.0.0
 # For github pages
 website: https://akmolteni.github.io
 baseurl: /gju
-
-# Collection of Notes
-collections:
-  - notes

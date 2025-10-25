@@ -13,7 +13,7 @@ title: Notes
 <ul>
 {% for page in pagesList %}
 	<li>
-		<a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+		<a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	</li>
 {% endfor %}
 </ul>

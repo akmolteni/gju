@@ -17,3 +17,13 @@ title: Notes
 	</li>
 {% endfor %}
 </ul>
+
+# Title
+
+<ol>
+{% for article in site.articles %}
+<li>
+  <a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
+</li>
+{% endfor %}
+</ol>

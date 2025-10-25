@@ -18,10 +18,10 @@ title: Notes
 {% endfor %}
 </ul>
 
-# Title
+## Title
 
 <ol>
-{% for article in site.articles %}
+{% for article in site.notes %}
 <li>
   <a href="{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
 </li>

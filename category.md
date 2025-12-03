@@ -12,7 +12,7 @@ All categories:
 {% for item in sorted_items %}{{ item[0] }}, {% endfor %}
 
 All categories with array to string
-{{ sorted_items | array_to_sentence_string }}
+{% sorted_items | array_to_sentence_string %}
 
 Browse all posts by category
 {% for item in sorted_items %}

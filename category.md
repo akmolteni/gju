@@ -13,7 +13,7 @@ All categories:
 
 All categories, try again:
 {% for item in sorted_items %}
-    {{ item[0] }}
+    {% item[0] %}
     {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 

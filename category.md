@@ -11,8 +11,14 @@ title: Category
 All categories: 
 {% for item in sorted_items %}{{ item[0] }}, {% endfor %}
 
-All categories with array to string
-{% sorted_items | array_to_sentence_string %}
+All categories, try again:
+{% for item in sorted_items %}
+    {{ item[0] }}
+    {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+
+
+
 
 Browse all posts by category
 {% for item in sorted_items %}

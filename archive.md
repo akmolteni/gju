@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Archive
 ---
 
-{% include archives.html %}
 
-# Archive
+
+{% include archives.html %}
 
 Browse all posts by month and year.
 

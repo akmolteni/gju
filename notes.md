@@ -4,7 +4,7 @@ title: Notes
 ---
 
 <p>
-	By treating our notes as living documents—constantly refined and updated with new insights, I have access to the most current, relevant thinking.
+	By treating our notes as living documents, I capture the most current, relevant thinking.
 	This approach doesn’t replace formal reviews but makes my mental models more effective by keeping them in sync with reality. 
 	It forces me to make a decision, challenge my own assumptions, test ideas, and continuously improve my understanding.
 </p>

@@ -1,16 +1,11 @@
 ---
-layout: default
+layout: page
 title: Category
 ---
 
 {% include archives.html %}
 
-# Category
 {% assign sorted_items = (site.categories | sort:0) %}
-
-All categories: 
-{% for item in sorted_items %}{{ item[0] }}, {% endfor %}
-
 
 Browse all posts by category
 {% for item in sorted_items %}

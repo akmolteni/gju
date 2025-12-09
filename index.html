@@ -11,8 +11,9 @@ title: Home
      {% if post.layout == "link" %}
         <article class="post">
 	  	    <h1 class="post-title"><a href="{{ post.linkurl }}">{{ post.title }}</a></h1>
+			  <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }} <a href="{{ post.url | relative_url }}" class="permalink">#</a></time>
+        
 		      {{ post.content }} 
-          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }} <a href="{{ post.url | relative_url }}" class="permalink">#</a></time>
         </article>
       {% else %}
         <article class="post">

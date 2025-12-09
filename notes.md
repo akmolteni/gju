@@ -3,15 +3,15 @@ layout: page
 title: Notes
 ---
 
-<p>
-	By treating our notes as living documents, I capture the most current, relevant thinking.
-	This approach doesn’t replace formal reviews but makes my mental models more effective by keeping them in sync with reality. 
-	It forces me to make a decision, challenge my own assumptions, test ideas, and continuously improve my understanding.
-</p>
-<p>
-	I may be inventing the wheel. That's the point. It’s a process of starting from scratch and stripping away assumptions 
-	or preconceived notions, in order to understand the core of how things work.
-</p>
+Praesent pretium metus blandit quam egestas congue. Aenean at efficitur magna. Curabitur bibendum ligula et ligula ornare finibus. Duis placerat, augue in convallis finibus, felis nisl venenatis libero, a rhoncus diam nunc nec quam. Maecenas sed turpis at nisl rhoncus tincidunt. Aliquam lobortis odio et tellus tincidunt luctus. Nulla congue felis vel ex viverra, eget semper nulla condimentum. Sed eu ultricies arcu, eu mollis ante.
+
+
+{% for article in site.notes %}
+	* [{{ article.title }}]({{ site.baseurl }}{{ article.url }})
+{% endfor %}
+
+
+
 
 <ol>
 {% for article in site.notes %}

@@ -6,6 +6,8 @@ title: Tag
 {% include archives.html %}
 Browse posts with tags
 {% assign sorted_tags = (site.tags | sort:0) %}
+{% assign sorted_tags = (site.tags | sort_natural) %}
+
 {% for tag in sorted_tags %}
   <h2>{{ tag[0] }}</h2>
   <ul>

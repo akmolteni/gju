@@ -46,7 +46,7 @@ layout: default
 </aside>
 {% endif %}
 
-<aside class="pagination">
+<div class="pagination">
 	{% if page.previous.url %}
 		
         <a class="pagination-item older" href="{{page.previous.url | relative_url }}">&laquo; Previous - {{ page.previous.title }}</a>
@@ -60,7 +60,7 @@ layout: default
     {% else %}
     	 <span class="pagination-item newer">Next &raquo;</span>
     {% endif %}
-</aside>
+</div>
 
 
 

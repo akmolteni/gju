@@ -29,7 +29,7 @@ title: Home
   {% endfor %}
 </div>
 
-<aside class="pagination">
+<div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
   {% else %}
@@ -40,6 +40,6 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</aside>
+</div>
 
 <div>Paginator page: {{paginator.page}}</div>

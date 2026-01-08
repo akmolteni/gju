@@ -9,6 +9,10 @@ Browse all posts by source
 
 {% assign postsBySource = site.posts | group_by: "source" | sort: "name" %}
 {% for source in postsBySource %}
+{% if source.name != "" %}
+  No source name
+{% endif %}
+
 <h2>{{ source.name }}</h2>
 <ul>
 {% for post in source.items %}

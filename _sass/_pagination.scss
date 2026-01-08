@@ -28,8 +28,8 @@ a.pagination-item:hover {
   background-color: var(--border-color);
 }
 
-/* don't constrain the width?
-@media (min-width: 30em) {
+/** originally @ 30em **/
+@media (min-width: 3em) {
   .pagination {
     margin: var(--spacer-3) 0;
   }
@@ -51,4 +51,4 @@ a.pagination-item:hover {
     }
   }
 }
-*/
+

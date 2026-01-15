@@ -11,7 +11,7 @@ Browse all posts by source
 {% for source in postsBySource %}
 {% if source.name != "" %}
 
-<h2>{{ source.name }}</h2>
+<h2>{{ source.name }} - {{ source.size }}</h2>
 <ul>
 {% for post in source.items %}
 <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>

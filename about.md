@@ -18,8 +18,3 @@ Some fun facts about the setup of this project include:
 - Built for [Jekyll](https://jekyllrb.com)
 - Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 - Coded with [Atom](https://atom.io), an amazing open source code editor
-
-## Metadata
-All the tags: {{ site.tags[0]  | array_to_sentence_string }}
-
-All the categories: {{ site.categories  | array_to_sentence_string }}

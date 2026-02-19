@@ -20,6 +20,6 @@ Some fun facts about the setup of this project include:
 - Coded with [Atom](https://atom.io), an amazing open source code editor
 
 ## Metadata
-All the tags: {{ site.tags  | array_to_sentence_string }}
+All the tags: {{ site.tags[0]  | array_to_sentence_string }}
 
 All the categories: {{ site.categories  | array_to_sentence_string }}
